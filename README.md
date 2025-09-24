@@ -9,14 +9,13 @@ It includes **frame extraction**, **annotation**, and **data augmentation** to c
 ## Project Structure
 ```
 Mosquito_Larvae_Project/
+Mosquito_Larvae_Project/
 ├── extract_frames.py         # Script to extract random frames from videos
 ├── augment_dataset.py        # Script to apply augmentations + update JSONs
-├── output_frames/            # Extracted frames from videos
+├── output_frames/            # Extracted frames from videos and annotation JSONs from LabelMe
 │   ├── video_00/
 │   └── video_01/
 ├── augmented_frames/         # Augmented outputs (images + JSONs)
-├── annotations/              # Original annotation JSONs from LabelMe
-├── samples/                  # Few sample augmented results
 │   ├── annotated_frames/
 │   └── augmented_images/
 ├── report.pdf                # One-page project report
